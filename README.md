@@ -1,5 +1,4 @@
 # EX05B - CART POLE BALANCING
-
 ## AIM
 To develop and fine tune the Monte Carlo algorithm to stabilize the Cart Pole.
 
@@ -120,11 +119,9 @@ def mc_control (env,n_bins=g_bins, gamma = 1.0,
 
     return Q, V, pi
 ```
-
 ## OUTPUT:
 
 <img src= "https://github.com/user-attachments/assets/bd5b8fee-039d-4834-857a-dfc189bee2ce" width="550" height="500">
-
 
 ## RESULT:
 Thus, a Python program is developed to find the optimal policy for the given cart-pole environment using the Monte Carlo algorithm
